@@ -1,17 +1,17 @@
 # M220 MFlix UI Front-End
 
-Hi there,
+Hi there!
 
 In this repository you can find the [MongoDB University Developer Courses](https://university.mongodb.com/)
 front-end application.
 
-The code is made available, so you can explore how MFlix application was created and how it is used throughout the M220 online courses.
+The code is made available so you can explore how the MFlix application was created and how it is used throughout the M220 online courses.
 
-All validation codes have been striped out of the source code  so you have the
-opportunity to the M220 learning experience in full!
+All validation codes have been striped out of the source code, so you have the
+opportunity the full M220 learning experience!
 
 The MFlix UI is a React Application that performs backend request via
-a backend exposed Rest API.
+a backend exposed Rest API. It will proxy requests to `http://localhost:5000/` to interact with any of the M220 backends that are listening on that port.
 
 ## Local build
 
@@ -42,6 +42,6 @@ npm install
 npm start
 ```
 
-Once you've started the server, you should be redirected to http://localhost:3000
+Once you've started the server, a new browser tab or window should open to http://localhost:3000 if one isn't open, otherwise it will refresh the existing window. Since this project uses create-react-app, hot reloading is in effect so there's no need to stop and start the front-end when you make a change.
 
 Enjoy!
