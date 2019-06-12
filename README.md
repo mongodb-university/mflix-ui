@@ -5,18 +5,19 @@ Hi there!
 In this repository you can find the [MongoDB University Developer Courses](https://university.mongodb.com/)
 front-end application.
 
-The code is made available so you can explore how the MFlix application was created and how it is used throughout the M220 online courses.
+This code is made available so that you can explore how the MFlix application was created and how it is used throughout the M220 online courses.
 
-All validation codes have been striped out of the source code, so you have the
-opportunity the full M220 learning experience!
+All validation codes have been striped out of the source code, so that you can
+enjoy the full M220 learning experience!
 
-The MFlix UI is a React Application that performs backend request via
-a backend exposed Rest API. It will proxy requests to `http://localhost:5000/` to interact with any of the M220 backends that are listening on that port.
+The MFlix UI is a React Application that performs backend requests via
+a backend exposed Rest API. It will proxy requests to `http://localhost:5000/`
+to interact with any of the M220 backends that are listening on that port.
 
 ## Local build
 
-If you want to make modifications, debug or simply just create a local version
-of the MFlix front-end you can do so by building locally.
+If you want to make modifications, debug or simply create a local version of
+the MFlix front-end you can do so by building locally.
 
 ### Dependencies
 
@@ -42,6 +43,6 @@ npm install
 npm start
 ```
 
-Once you've started the server, a new browser tab or window should open to http://localhost:3000 if one isn't open, otherwise it will refresh the existing window. Since this project uses create-react-app, hot reloading is in effect so there's no need to stop and start the front-end when you make a change.
+Once you've started the server, a new browser tab or window should open to http://localhost:3000 if one isn't open, otherwise it will refresh the existing window. Since this project uses create-react-app, not reloading is in effect so there's no need to stop and start the front-end when you make a change.
 
 Enjoy!
